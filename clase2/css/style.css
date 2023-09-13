@@ -1,0 +1,17 @@
+h1{
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+p{
+    color: darkgrey;
+}
+#parrafo_introduccion{
+    color: blue;
+}
+.parrafo_color{
+    color: darkgreen;
+}
+#parrafo_introduccion strong{
+    color: yellow;
+}
