@@ -1,0 +1,10 @@
+/* selector hijo */
+div > span {
+    font-size: 30px;
+    color: red;
+}
+
+a span {
+    color: brown;
+    font-size: 50px;
+}
