@@ -1,10 +1,50 @@
 /* selector hijo */
-div > span {
+div.selector_hijo > span {
     font-size: 30px;
     color: red;
 }
 
-a span {
+div.selector_hijo a > span {
     color: brown;
     font-size: 50px;
+}
+
+/*selector adyacente*/
+div.selector_adyacente h3 + p {
+    background-color: black;
+    color: yellow;
+}
+
+/* selector hermano general*/
+div.selector_hermano_general h4 ~ p {
+    background-color: red;
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* pseudoclases*/
+body{
+    background-color: gainsboro;
+}
+
+.contenedor {
+    text-align: center;
+    border: 2px solid gainsboro;
+    margin: 20px;
+    /*margin: 20px;*/
+    /*margin: 20px 40px;*/
+    /*margin: 20px 5px 10px 40px;*/
+}
+
+.enlace{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    font-size: 25px;
+    text-decoration: underline;
 }
