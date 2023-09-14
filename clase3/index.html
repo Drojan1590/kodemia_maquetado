@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <link rel="stylesheet" href="./css/style.css">
-        <title>clase 3, selectores avanzados</title>
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li> <a href="./pages/pseudoclases.html"> Ir a Pseudoclases</a></li>
-            </ul>
-        </nav>
-        <!--Selector Hijo-->
-        <div class="selector_hijo">
-            <span> Soy un span hijo</span>
-            <p>Soy un parrafo</p>
-            <a href="#">
-                <span>Soy otro span</span>
-            </a> 
-            <a href="#">
-                <span>Soy otro span</span>
-            </a>             
-        </div>
-        <div class="selector_adyacente">
-            <h2>Selector adyacente</h2>
-            <h3>Titulo</h3>
-            <p>parrafo adyacente</p>
-            <p>Otro parrafo</p>
-        </div>
-            
-        <div class="selector_hermano_general">
-            <h2>titulo h2</h2>
-            <p>parrafo</p>
-            <h4>titulo h4</h4>
-            <span>texto span</span>
-            <span>texto span</span>
-            <p>parrafo</p>
-            <p>parrafo</p>
-            <h3>titulo h3</h3>
-        </div>
-    </body>
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Clase 3 | Selectores Avanzados</title>
+  </head>
 
+  <body class="mainBody">
+    <h1>Selectores Avanzados</h1>
+    <!-- menu de navegacion -->
+    <nav>
+      <ul>
+        <li>
+          <a href="./pages/pseudoclases.html"> Ir a Pseudoclases </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Selector Hijo  -->
+    <div class="selector_hijo">
+      <h2>Selectror Hijo</h2>
+      <span> Soy un span hijo (span) </span>
+      <p>soy un parrafo (p)</p>
+      <a href="#">
+        <span> Soy otro span </span>
+      </a>
+
+      <a href="#">
+        <span> Soy otro span </span>
+      </a>
+    </div>
+
+    <!-- Selector de hermanos adyacentes -->
+    <div class="selector_adyacente">
+      <h2>Selectror Adyacente</h2>
+      <h3>Titulo 2</h3>
+      <p>Parrafo adyacente</p>
+      <p>Parrafo 2</p>
+    </div>
+
+    <!-- Selector de hermanos generales -->
+    <div class="selector_hermano_general">
+      <h2>Selector Hermano General</h2>
+      <p>Parrafo 1</p>
+      <h4>Titulo 1 (h4)</h4>
+      <span> span 1 </span>
+      <br />
+
+      <span> span 2 </span>
+      <p>Parrafo 2</p>
+      <p>Parrafo 3</p>
+      <h3>Titulo 2 (h3)</h3>
+      <p>Parrafo 4</p>
+
+      <span> span 3 </span>
+
+      <span> span 4 </span>
+    </div>
+  </body>
 </html>
